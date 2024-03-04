@@ -1,0 +1,6 @@
+for n in range(0, 5, 1):
+    print(end="\n")
+    for sp in range(0, n, 1):
+        print(" ", end=" ")
+    for no in range(1, 6-n, 1):
+        print(no, end=" ")
